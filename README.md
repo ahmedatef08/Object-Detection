@@ -12,3 +12,5 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 link of the datset : https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class
+
+The model was evaluated using classification metrics. CNN model achieved low accuracy initially, which improved with augmentation and sharpening. YOLOv8 provided better detection performance, especially in real-time scenarios. Accuracy, Precision, Recall, and F1-Score were calculated to assess performance.
